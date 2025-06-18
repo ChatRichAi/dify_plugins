@@ -1,0 +1,9 @@
+{
+  "name": "market_data_plugin",
+  "version": "0.1.0",
+  "description": "Market Data Plugin for Dify，集成行情API，支持/kline、/symbol_search、/market_status等接口。",
+  "author": "ChatRichAi",
+  "entry": "plugin:router",
+  "dependencies": ["fastapi", "requests"],
+  "tags": ["market", "data", "finance", "行情", "股票"]
+} 
